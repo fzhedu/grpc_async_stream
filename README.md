@@ -12,4 +12,14 @@ adapted from examples for a G-Research's [blog post](https://www.gresearch.co.uk
 
 
 ## command
-PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig make
+`PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig make`
+
+run on each terminal:
+
+`./async_streaming_server 50050`
+
+`./async_streaming_server 50051`
+
+`./async_streaming_server 50052`
+
+`./greeter_async_streaming_multi_client`
